@@ -15,6 +15,6 @@ public class AdminPers extends Person {
 
     @Override
     public String toString() {
-        return super.toString() + "\t\t" + getHours() + "\t\t\t" + getSalary() + "\t\t" + vacation;
+        return super.toString() + "\t\t" + vacation;
     }
 }

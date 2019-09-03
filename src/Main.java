@@ -5,9 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Person> empList = new ArrayList<Person>();
-        List<Member> memberList = new ArrayList<Member>();
-        List<Person> personList = new ArrayList<Person>();
+        List<Person> empList = new ArrayList<>();
+        List<Member> memberList = new ArrayList<>();
+        List<Person> personList = new ArrayList<>();
 
         Person person = new Person();
 
@@ -41,7 +41,7 @@ public class Main {
 
         System.out.println("EMPLOYEES & MEMBERS");
         System.out.println("Name\t\t\tCPR");
-        System.out.println("*******************************************************************");
+        System.out.println("******************************************************************");
         for (Person i : empList) {
             System.out.print(i.getName() + "\t\t\t");
             System.out.println(i.getCPR());

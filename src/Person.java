@@ -50,6 +50,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return name + "\t\t"+  CPR;
+        return name + "\t\t"+ CPR + "\t\t" + hours + "\t\t\t" + salary;
     }
 }
