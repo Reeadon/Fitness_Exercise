@@ -9,6 +9,7 @@ public class Main {
         List<Member> memberList = new ArrayList<>();
         List<Person> personList = new ArrayList<>();
 
+        //thus w9ris
         Person person = new Person();
 
         empList.add(new AdminPers("Claus", "221175-1011"));
